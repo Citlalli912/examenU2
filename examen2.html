@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario || Registrate</title>
+    <style>
+        body{
+            background-color: rgb(232, 232, 232);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        #box{
+            background-color: white;
+            margin: 30px;
+            padding: 30px;
+            border: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Formulario de Registro</h1>
+        </div>
+        <div class="box">
+            <div class="form">
+                <form action="">
+                    <label for="userName">Nombre</label>
+                    <p><input type="text" id="userName"></p>
+                    <label for="userPhone">Telefono</label>
+                    <p><input type="tel" id="userPhone"></p>
+                    <label for="correo">Correo electronico</label>
+                    <p><input type="email" id="correo"></p>
+                    <label for="Escuela">Escuela</label>
+                    <select name="escuelas" id="Escuela"> Seleccionar...
+                        <option value="escuela1">CECyTEM
+                            <select name="carreraCecy" id=""></select>
+                        </option>
+                        <option value="escuela2">Conalep</option>
+                        <option value="escuela3">CETMAR</option>
+                        <option value="otro">Otra escuela</option>
+                    </select>
+                    <label for="carrera">Carrera</label>
+                    <select name="Carreras" id="carrera">
+                        <option value="carrera1">Programacion</option>
+                        <option value="carrera2">Instrumentacion</option>
+                        <option value="carrera3">Alimentos</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
